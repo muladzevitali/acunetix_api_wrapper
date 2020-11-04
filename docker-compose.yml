@@ -1,0 +1,16 @@
+version: "3.3"
+
+services:
+  application:
+    build:
+      context: .
+    stdin_open: true
+    tty: true
+    container_name: application
+    working_dir: /application
+    expose:
+      - 6009
+    ports:
+      - 6009:6009
+
+

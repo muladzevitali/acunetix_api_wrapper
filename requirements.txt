@@ -1,0 +1,12 @@
+flask
+flask_script
+flask_migrate
+flask_login
+flask_admin
+flask_restful
+flask_security
+requests
+gunicorn
+pyjwt
+sqlalchemy
+email_validator
